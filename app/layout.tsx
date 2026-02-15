@@ -6,8 +6,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin", "cyrillic"] });
 
 export const metadata: Metadata = {
-  title: "Anwar | Full Stack Developer",
-  description: "Portfolio of Anwar, C# & Next.js Developer",
+  title: "Anvar | Full Stack Developer",
+  description: "Portfolio of Anvar, C# & Next.js Developer",
 };
 
 export default function RootLayout({
