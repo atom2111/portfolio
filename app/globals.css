@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    /* Используем bg-background (черный) и text-white (белый) */
+    @apply bg-background text-white antialiased;
+  }
+}
+
+/* Убираем скроллбар */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
